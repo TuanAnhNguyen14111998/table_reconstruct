@@ -5,3 +5,4 @@ xmltodict
 networkx
 dvc
 dvc[azure]
+dvc[gdrive]
