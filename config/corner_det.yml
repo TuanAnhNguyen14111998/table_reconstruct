@@ -1,0 +1,3 @@
+weight: weights/dewarp/yolov5_doc.onnx
+conf_thres: 0.1
+iou_thres: 0.1

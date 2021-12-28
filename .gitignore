@@ -2,4 +2,4 @@ env/
 datasets/*
 .DS_Store
 weights/
-/weights
+visualize_dir/

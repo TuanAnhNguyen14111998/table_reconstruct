@@ -33,7 +33,7 @@ dataloader:
 dataset:
   data_root: /vinbrain/quatpv/Git/eKYC/Hoang_tmp/DMEC/data
   image_height: 32
-  image_max_width: 1500
+  image_max_width: 800
   image_min_width: 32
   is_padding: true
   name: dmec_v3
@@ -79,7 +79,7 @@ transformer:
 vocab: 'aAàÀảẢãÃáÁạẠăĂằẰẳẲẵẴắẮặẶâÂầẦẩẨẫẪấẤậẬbBcCdDđĐeEèÈẻẺẽẼéÉẹẸêÊềỀểỂễỄếẾệỆfFgGhHiIìÌỉỈĩĨíÍịỊjJkKlLmMnNoOòÒỏỎõÕóÓọỌôÔồỒổỔỗỖốỐộỘơƠờỜởỞỡỠớỚợỢpPqQrRsStTuUùÙủỦũŨúÚụỤưƯừỪửỬữỮứỨựỰvVwWxXyYỳỲỷỶỹỸýÝỵỴzZ0123456789!"#$%&''()*+,-./:;<=>?@[\]^_`{|}~ '
 
 
-weights_local: 'weights/ocr/seq2seq_ocr_dmec_v3.pt'
+weights_local: 'weights/ocr/seq2seq_ehr_v1.pt'
 onnx:
   backbone_path: weights/vietocr/cnn_v3.onnx
   encoder_path: weights/vietocr/encoder_v3.onnx

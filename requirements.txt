@@ -6,3 +6,9 @@ networkx
 dvc
 dvc[azure]
 dvc[gdrive]
+pillow
+torch==1.9.0
+torchvision==0.10.0
+paddleocr==2.0.6
+paddlepaddle==2.1.2
+gdown
