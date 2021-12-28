@@ -12,3 +12,6 @@ torchvision==0.10.0
 paddleocr==2.0.6
 paddlepaddle==2.1.2
 gdown
+mmdet
+mmcv-full==1.3.16
+
