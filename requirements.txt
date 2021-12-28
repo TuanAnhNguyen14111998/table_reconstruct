@@ -3,3 +3,6 @@ beautifulsoup4
 lxml
 xmltodict
 networkx
+dvc
+dvc[azure]
+dvc[gdrive]

@@ -7,7 +7,7 @@ import pandas as pd
 import sys
 sys.path.insert(0, "./")
 
-from helpers.table_reconstruct import TableReconstructor
+from lib.label.table_reconstruct import TableReconstructor
 
 
 def get_bbx_and_text(file_xml):

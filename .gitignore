@@ -1,3 +1,5 @@
 env/
 datasets/*
 .DS_Store
+weights/
+/weights
